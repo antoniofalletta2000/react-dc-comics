@@ -8,11 +8,11 @@ import periscopeLogo from "/img/footer-periscope.png"
 export default function Footer() {
     return (
         <>
+            <div id="bgimg" className="bgimg">
+                <div className="container text-white d-flex justify-content-start">
+                    <div className="pt-5 d-flex justify-content-center gap-5">
 
-            <div className="bgimg text-white d-flex justify-content-around">
-                <div className="pt-5 d-flex justify-content-center gap-5">
 
-                    <div>
                         <ul>
                             <li>
                                 <h3>DC COMICS</h3>
@@ -30,9 +30,9 @@ export default function Footer() {
                             <li>Shop DC</li>
                             <li>Shop DC Collectibles</li>
                         </ul>
-                    </div>
 
-                    <div>
+
+
                         <ul>
                             <li>
                                 <h3>DC</h3>
@@ -49,9 +49,8 @@ export default function Footer() {
                             <li>Shop Help</li>
                             <li>Contact Us</li>
                         </ul>
-                    </div>
 
-                    <div>
+
                         <ul>
                             <li>
                                 <h3>SITES</h3>
@@ -62,20 +61,23 @@ export default function Footer() {
                             <li>DC Universe</li>
                             <li>DC Power Visa</li>
                         </ul>
-                    </div>
 
+
+                    </div>
+                    <img id="dcbg" src={dcLogoBg} alt="" />
                 </div>
-                <img className="dcbg" src={dcLogoBg} alt="" />
             </div>
 
 
-            <div className=" line_grey d-flex justify-content-around align-items-center">
+
+
+            <div id="line_grey" className="line_grey d-flex justify-content-around align-items-center">
                 <div>
-                   <button className="border border-info border-3 bg-transparent p-3 text-white fw-bold">
-                    SIGN-UP NOW!
-                </button> 
+                    <button className="border border-info border-3 bg-transparent p-3 text-white fw-bold">
+                        SIGN-UP NOW!
+                    </button>
                 </div>
-                
+
                 <div className="social_icons d-flex gap-3 align-items-center">
                     <span className="text-info fw-bold">FOLLOW US</span>
                     <a href="">
