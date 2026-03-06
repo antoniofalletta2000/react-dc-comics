@@ -11,7 +11,7 @@ export default function Main() {
             <div className="line_black bg-black">
                 <span></span>
             </div>
-            <div className="line_blue bg-primary d-flex justify-content-around align-items-center">
+            <div className="line_blue bg-primary d-flex justify-content-center align-items-center gap-5">
                 <div className="d-flex gap-2 align-items-center">
                     <img src={digitalComics} alt="" />
                     <span className="text-white">DIGITAL COMICS</span>
