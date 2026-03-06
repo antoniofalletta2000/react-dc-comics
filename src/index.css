@@ -3,6 +3,7 @@
 a{
   text-decoration: none;
   color: black;
+  font-family: 'Open Sans Variable', sans-serif;
 }
 
 .active{
@@ -14,9 +15,38 @@ a{
 }
 .line_blue{
   min-height: 20vh;
-
+  z-index: 3;
   img{
     max-width: 50px;
     max-height: 50px;
   }
+}
+
+.bgimg{
+  background-image: url("/public/img/footer-bg.jpg");
+  background-size: cover;
+  max-height: 400px;
+  background-repeat: no-repeat;
+  z-index: 1;
+  
+  ul{
+    list-style-type: none;
+    li{
+      color: lightgrey;
+
+      h3{
+        color: white;
+      }
+    }
+  }
+  
+}
+
+.dcbg{
+  z-index: 2;
+}
+
+.line_grey{
+  min-height: 15vh;
+  background-color: rgb(54, 51, 51);
 }

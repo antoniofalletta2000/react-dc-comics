@@ -7,7 +7,7 @@ export default function Header(){
             <img className="mt-3" src={dcLogo} alt="" />
             <nav className="d-flex gap-3 align-items-center ">
                 <a href="">CHARACTERS</a>
-                <a className="active" href="">COMICS</a>
+                <a className="active border-bottom border-primary border-5" href="">COMICS</a>
                 <a href="">MOVIES</a>
                 <a href="">TV</a>
                 <a href="">GAMES</a>
