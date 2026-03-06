@@ -8,3 +8,15 @@ a{
 .active{
   color: blue;
 }
+
+.line_black{
+  min-height: 10vh;
+}
+.line_blue{
+  min-height: 20vh;
+
+  img{
+    max-width: 50px;
+    max-height: 50px;
+  }
+}
