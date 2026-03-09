@@ -199,23 +199,23 @@ export default function Main() {
                     <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 d-flex  g-5">
                         <div className="col d-flex gap-2 align-items-center justify-content-center">
                             <img src={digitalComics} alt="" />
-                            <span className="text-white">DIGITAL COMICS</span>
+                            <a href="" className="text-white">DIGITAL COMICS</a>
                         </div>
                         <div className="col d-flex gap-2 align-items-center justify-content-center">
                             <img src={merchandise} alt="" />
-                            <span className="text-white">DC MERCHANDISE</span>
+                            <a href="" className="text-white">DC MERCHANDISE</a>
                         </div>
                         <div className="col d-flex gap-2 align-items-center justify-content-center">
                             <img src={subscriptions} alt="" />
-                            <span className="text-white">SUBSCRIPTION</span>
+                            <a href="" className="text-white">SUBSCRIPTION</a>
                         </div>
                         <div className="col d-flex gap-2 align-items-center justify-content-center">
                             <img src={shop} alt="" />
-                            <span className="text-white">COMIC SHOP LOCATOR</span>
+                            <a href className="text-white">COMIC SHOP LOCATOR</a>
                         </div>
                         <div className="col d-flex gap-2 align-items-center justify-content-center">
                             <img src={powerVisa} alt="" />
-                            <span className="text-white">DC&nbsp;POWER&nbsp;VISA</span>
+                            <a href="" className="text-white">DC&nbsp;POWER&nbsp;VISA</a>
                         </div>
                     </div>
 
