@@ -65,15 +65,13 @@ export default function Header() {
         }
     ];
     return (
-        <header className=" container">
+        <header className="container">
             <div className="row row-cols-1 d-flex justify-content-between align-items-center">
-                <div className="col col-md-4">
-                    <a href="">
-                        <img className="m-3" src={dcLogo} alt="" />
-                    </a>
+                <div className="col col-md-2">
+                    <img className="m-3" src={dcLogo} alt="" />
                 </div>
-                <div className="col col-md-8">
-                    <nav className="d-flex gap-2 align-items-center justify-content-center">
+                <div className="col col-md-10">
+                    <nav className="d-flex gap-3 align-items-center justify-content-center">
                         {links.map(link=>(
                             <a href={link.url} className={link.current===true ? "active" : " "} key={link.id}>
                                 {link.text}

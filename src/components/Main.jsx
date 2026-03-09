@@ -175,17 +175,17 @@ export default function Main() {
                         {
                             comics.map(item => (
                                 <div className="col ">
-                                    <div className="card bg-black h-100">
+                                    <div className="card bg-black">
                                         <img className="item" src={item.thumb} alt={item.title} />
-                                        <h3 className="item_title text-white">{item.title}</h3>
                                     </div>
+                                    <h3 className="item_title text-white">{item.title}</h3>   
                                 </div>
                             ))
                         }
 
                     </div>
                 </div>
-                <div className="d-flex justify-content-center p-4">
+                <div className="d-flex justify-content-center p-5">
                     <button className="border border-0 bg-primary fw-bold text-white px-5 py-1">LOAD MORE</button>
                 </div>
 
@@ -194,27 +194,33 @@ export default function Main() {
 
 
 
-            <div id="line_blue" className="line_blue bg-primary d-flex justify-content-center align-items-center gap-5 py-3">
-                <div className="d-flex gap-2 align-items-center">
-                    <img src={digitalComics} alt="" />
-                    <span className="text-white">DIGITAL COMICS</span>
+            <div id="line_blue" className="line_blue bg-primary">
+                <div className="container py-5">
+                    <div className="row row-cols-1 row-cols-md-3 row-cols-lg-5 d-flex  g-5">
+                        <div className="col d-flex gap-2 align-items-center justify-content-center">
+                            <img src={digitalComics} alt="" />
+                            <span className="text-white">DIGITAL COMICS</span>
+                        </div>
+                        <div className="col d-flex gap-2 align-items-center justify-content-center">
+                            <img src={merchandise} alt="" />
+                            <span className="text-white">DC MERCHANDISE</span>
+                        </div>
+                        <div className="col d-flex gap-2 align-items-center justify-content-center">
+                            <img src={subscriptions} alt="" />
+                            <span className="text-white">SUBSCRIPTION</span>
+                        </div>
+                        <div className="col d-flex gap-2 align-items-center justify-content-center">
+                            <img src={shop} alt="" />
+                            <span className="text-white">COMIC SHOP LOCATOR</span>
+                        </div>
+                        <div className="col d-flex gap-2 align-items-center justify-content-center">
+                            <img src={powerVisa} alt="" />
+                            <span className="text-white">DC&nbsp;POWER&nbsp;VISA</span>
+                        </div>
+                    </div>
+
                 </div>
-                <div className="d-flex gap-2 align-items-center">
-                    <img src={merchandise} alt="" />
-                    <span className="text-white">DC MERCHANDISE</span>
-                </div>
-                <div className="d-flex gap-2 align-items-center">
-                    <img src={subscriptions} alt="" />
-                    <span className="text-white">SUBSCRIPTION</span>
-                </div>
-                <div className="d-flex gap-2 align-items-center">
-                    <img src={shop} alt="" />
-                    <span className="text-white">COMIC SHOP LOCATOR</span>
-                </div>
-                <div className="d-flex gap-2 align-items-center">
-                    <img src={powerVisa} alt="" />
-                    <span className="text-white">DC&nbsp;POWER&nbsp;VISA</span>
-                </div>
+
 
             </div>
 

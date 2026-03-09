@@ -99,3 +99,14 @@ a {
   position: absolute;
   transform: translateY(-15px);
 }
+
+.card{
+  overflow: hidden;
+}
+  
+
+.item[alt~="Action"],
+.item[alt~="Catwoman"]{
+  transform-origin:top ;
+  transform: scale(1.6);
+}
