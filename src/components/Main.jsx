@@ -168,6 +168,9 @@ export default function Main() {
             <div className="line_black bg-black">
                 <img id="jumbo" src={jumbotron} alt="" />
                 <div className="container">
+                    <div>
+                        <button id="btn" className="border border-0 bg-primary fw-bold text-white p-2">CURRENT SERIES</button>
+                    </div>
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 pt-5">
                         {
                             comics.map(item => (
@@ -191,7 +194,7 @@ export default function Main() {
 
 
 
-            <div id="line_blue" className="line_blue bg-primary d-flex justify-content-center align-items-center gap-5">
+            <div id="line_blue" className="line_blue bg-primary d-flex justify-content-center align-items-center gap-5 py-3">
                 <div className="d-flex gap-2 align-items-center">
                     <img src={digitalComics} alt="" />
                     <span className="text-white">DIGITAL COMICS</span>

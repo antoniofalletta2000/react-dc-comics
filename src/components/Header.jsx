@@ -68,7 +68,9 @@ export default function Header() {
         <header className=" container">
             <div className="row row-cols-1 d-flex justify-content-between align-items-center">
                 <div className="col col-md-4">
-                    <img className="m-3" src={dcLogo} alt="" />
+                    <a href="">
+                        <img className="m-3" src={dcLogo} alt="" />
+                    </a>
                 </div>
                 <div className="col col-md-8">
                     <nav className="d-flex gap-2 align-items-center justify-content-center">
