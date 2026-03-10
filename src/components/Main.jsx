@@ -4,6 +4,7 @@ import subscriptions from "/img/buy-comics-subscriptions.png"
 import shop from "/img/buy-comics-shop-locator.png"
 import powerVisa from "/img/buy-dc-power-visa.svg"
 import jumbotron from "/img/jumbotron.jpg"
+import AppCard from "./AppCard"
 
 
 export default function Main() {
@@ -172,17 +173,10 @@ export default function Main() {
                         <button id="btn" className="border border-0 bg-primary fw-bold text-white p-2">CURRENT SERIES</button>
                     </div>
                     <div className="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 pt-5">
-                        {
-                            comics.map(item => (
-                                <div className="col ">
-                                    <div className="card bg-black">
-                                        <img className="item" src={item.thumb} alt={item.title} />
-                                    </div>
-                                    <h3 className="item_title text-white">{item.title}</h3>   
-                                </div>
-                            ))
-                        }
-
+                        {comics.map(item=>(
+                            <AppCard title={item.title} src={item.thumb} key={item.id}/>
+                        ))}
+                        
                     </div>
                 </div>
                 <div className="d-flex justify-content-center p-5">
